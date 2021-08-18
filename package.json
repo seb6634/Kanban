@@ -1,0 +1,32 @@
+{
+  "name": "S06-Atelier-oKanban-yannOclock",
+  "version": "1.0.0",
+  "description": "## jour 2 : BDD",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Nautilus/S06-Atelier-oKanban-yannOclock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Nautilus/S06-Atelier-oKanban-yannOclock/issues"
+  },
+  "homepage": "https://github.com/O-clock-Nautilus/S06-Atelier-oKanban-yannOclock#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "pg": "^8.5.1",
+    "sanitize-html": "^2.3.0",
+    "sequelize": "^6.3.5"
+  }
+}

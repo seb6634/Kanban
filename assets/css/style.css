@@ -1,0 +1,19 @@
+body {
+  background-color: #ccc;
+  height: 100vh;
+  overflow:auto;
+}
+
+.card-lists {
+  overflow-x: auto;
+}
+
+input[type="color"] {
+  width: 3em;
+}
+
+body .tag{
+  color: #fff;
+  font-weight:bold;
+  text-shadow: 1px 1px 0 rgb(0,0,0,0.6);
+}

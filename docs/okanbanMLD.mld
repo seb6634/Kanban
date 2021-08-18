@@ -1,0 +1,32 @@
+liste (
+    id INT, 
+    nom TEXT, 
+    position INT, 
+    date de création DATETIME, 
+    date de mise à jour DATETIME
+)
+
+carte (
+    id INT, 
+    titre TEXT, 
+    position INT, 
+    couleur TEXT, 
+    date de création DATETIME, 
+    date de mise à jour DATETIME, 
+    liste("id") INT
+)
+
+libelle (
+    id INT,
+    nom TEXT,
+    color TEXT,
+    date de création DATETIME, 
+    date de mise à jour DATETIME
+)
+
+carte lié aux libellés (
+    id INT, 
+    carte("id") INT, 
+    libellé("id") INT, 
+    date de création
+)
